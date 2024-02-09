@@ -38,7 +38,7 @@
         }
     ],
     "global_setting": {
-        "title": "YouTube Video Comment Analysis",
+        "title": "Know Your Target Audience",
         "css": "${env.get(\"NODERED\")}/css"
     },
     "gitApplicationMetadata": {
