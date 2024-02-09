@@ -1,0 +1,52 @@
+{
+    "_id": "65b8ed65059f3c8e51bd4fb4",
+    "name": "audience-ui",
+    "slug": "get-feedback-ui",
+    "organizationId": "Org",
+    "isPublic": true,
+    "isMenu": false,
+    "isShowPlatformTag": true,
+    "createdAt": "2024-01-30T12:36:53.902Z",
+    "updatedAt": "2024-02-09T16:19:51.027Z",
+    "deleted": false,
+    "pages": [
+        {
+            "_id": "home",
+            "isDefault": true
+        }
+    ],
+    "policies": [
+        {
+            "permission": "makePublic:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "read:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "publish:applications",
+            "groups": [],
+            "users": []
+        },
+        {
+            "permission": "manage:applications",
+            "groups": [],
+            "users": []
+        }
+    ],
+    "global_setting": {
+        "title": "YouTube Video Comment Analysis",
+        "css": "${env.get(\"NODERED\")}/css"
+    },
+    "gitApplicationMetadata": {
+        "browserSupportedRemoteUrl": "https://github.com/UBOS-Asset-Store/UBOS-template-Know-your-target-audience-ui",
+        "defaultApplicationId": "get-feedback-ui",
+        "defaultBranchName": "main",
+        "isRepoPrivate": true,
+        "remoteUrl": "git@github.com:UBOS-Asset-Store/UBOS-template-Know-your-target-audience-ui.git",
+        "repoName": "UBOS-template-Know-your-target-audience-ui"
+    }
+}
